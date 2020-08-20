@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laravel</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-messaging.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#config-web-app -->
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDUfMS-eV20sA6Q-ebAlt_IFFlVCUQxSN0",
+            authDomain: "webpush-b181a.firebaseapp.com",
+            databaseURL: "https://webpush-b181a.firebaseio.com",
+            projectId: "webpush-b181a",
+            storageBucket: "webpush-b181a.appspot.com",
+            messagingSenderId: "948572014501",
+            appId: "1:948572014501:web:47bb0ab627fae70fb78a4c",
+            measurementId: "G-RV47N7Z648"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const messaging = firebase.messaging();
+    </script>
+
+</head>
+<body>
+<div class="flex-center position-ref full-height">
+
+    <div class="content">
+        <div class="title m-b-md">
+            Laravel Desktop Push Notifications
+        </div>
+    </div>
+</div>
+</body>
+</html>
